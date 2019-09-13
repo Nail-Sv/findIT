@@ -1,10 +1,10 @@
-package just.findIT.dao;
+package just.findIT.service;
 
 import just.findIT.model.Employee;
 
 import java.util.List;
 
-public interface EmployeeDAO {
+public interface EmployeeService {
     List<Employee> allEmployees();
     void add(Employee employee);
     void delete(Employee employee);

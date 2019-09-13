@@ -1,17 +1,38 @@
 package just.findIT.model;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "employerTable")
 public class Employee {
+    @Id
+    @Column(name = "id")
+    @GeneratedValue(strategy =  GenerationType.IDENTITY)
     private int id;
+
+    @Column(name = "firstName")
     private String firstName;
+
+    @Column(name = "secondName")
     private String secondName;
-    private boolean sex;
+
+
+    @Column(name = "email")
     private String email;
+
+    @Column(name = "phone")
     private int phone;
-    private String skype;
+
+    @Column(name = "profession")
     private String proffesion;
+
+    @Column(name = "skills")
     private String skills;
+
+    private String skype;
     private String lokation;
     private boolean subscribe;
+    private boolean sex;
 
     public int getId() {
         return id;
