@@ -16,7 +16,6 @@ public class Employee {
     @Column(name = "secondName")
     private String secondName;
 
-
     @Column(name = "email")
     private String email;
 
@@ -29,10 +28,10 @@ public class Employee {
     @Column(name = "skills")
     private String skills;
 
-    private String skype;
-    private String lokation;
-    private boolean subscribe;
-    private boolean sex;
+//    private String skype;
+//    private String lokation;
+//    private boolean subscribe;
+//    private boolean sex;
 
     public int getId() {
         return id;
@@ -58,18 +57,10 @@ public class Employee {
         this.secondName = secondName;
     }
 
-    public boolean isSex() {
-        return sex;
-    }
-
-    public void setSex(boolean sex) {
-        this.sex = sex;
-    }
 
     public String getEmail() {
         return email;
     }
-
     public void setEmail(String email) {
         this.email = email;
     }
@@ -80,14 +71,6 @@ public class Employee {
 
     public void setPhone(int phone) {
         this.phone = phone;
-    }
-
-    public String getSkype() {
-        return skype;
-    }
-
-    public void setSkype(String skype) {
-        this.skype = skype;
     }
 
     public String getProffesion() {
@@ -106,19 +89,35 @@ public class Employee {
         this.skills = skills;
     }
 
-    public String getLokation() {
-        return lokation;
-    }
-
-    public void setLokation(String lokation) {
-        this.lokation = lokation;
-    }
-
-    public boolean isSubscribe() {
-        return subscribe;
-    }
-
-    public void setSubscribe(boolean subscribe) {
-        this.subscribe = subscribe;
-    }
+//    public boolean isSex() {
+//        return sex;
+//    }
+//
+//    public void setSex(boolean sex) {
+//        this.sex = sex;
+//    }
+//
+//    public String getSkype() {
+//        return skype;
+//    }
+//
+//    public void setSkype(String skype) {
+//        this.skype = skype;
+//    }
+//
+//    public String getLokation() {
+//        return lokation;
+//    }
+//
+//    public void setLokation(String lokation) {
+//        this.lokation = lokation;
+//    }
+//
+//    public boolean isSubscribe() {
+//        return subscribe;
+//    }
+//
+//    public void setSubscribe(boolean subscribe) {
+//        this.subscribe = subscribe;
+//    }
 }

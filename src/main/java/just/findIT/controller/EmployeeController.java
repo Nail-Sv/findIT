@@ -16,11 +16,10 @@ import java.util.List;
 @Controller
 public class EmployeeController {
 
-//    private EmployeeService employeeService = new EmployeeServiceImpl();
     private EmployeeService employeeService;
 
     @Autowired
-    public void setEmployeeController(EmployeeService employeeService) {
+    public void setEmployeeService(EmployeeService employeeService) {
         this.employeeService = employeeService;
     }
 
