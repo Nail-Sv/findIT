@@ -6,14 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c31fcc30-7997-41e9-a805-df46d33cd466" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="c31fcc30-7997-41e9-a805-df46d33cd466" name="Default Changelist" comment="fixed Bugs, now it's work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/just/findIT/config/HibernateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/just/findIT/config/HibernateConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/just/findIT/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/just/findIT/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/just/findIT/dao/EmployeeDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/just/findIT/dao/EmployeeDAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/just/findIT/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/just/findIT/model/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/just/findIT/service/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/just/findIT/service/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/employees.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/employees.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -205,6 +203,11 @@
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d25bbd0e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@1c585113" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d25bbd0e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceNode@1e7de7c2" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
@@ -228,7 +231,7 @@
       <workItem from="1567879883227" duration="20000" />
       <workItem from="1567879973059" duration="3481000" />
       <workItem from="1568022755209" duration="20001000" />
-      <workItem from="1568475359929" duration="2658000" />
+      <workItem from="1568475359929" duration="13067000" />
     </task>
     <task id="LOCAL-00001" summary="fisr commit">
       <created>1567800895635</created>
@@ -258,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568401460132</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fixed Bugs, now it's work">
+      <created>1568625278318</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1568625278318</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,6 +292,7 @@
     <MESSAGE value="create Controller" />
     <MESSAGE value="create MVC base and strat with DAO" />
     <MESSAGE value="connected to DB, created Configs, configurated Hibernate" />
-    <option name="LAST_COMMIT_MESSAGE" value="connected to DB, created Configs, configurated Hibernate" />
+    <MESSAGE value="fixed Bugs, now it's work" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed Bugs, now it's work" />
   </component>
 </project>

@@ -24,6 +24,15 @@ public class EmployeeController {
     }
 
 
+//    @RequestMapping(value = "/", method = RequestMethod.GET)
+//    public ModelAndView allEmployees(){
+//        List<Employee> employees = employeeService.allEmployees();
+//        ModelAndView modelAndView = new ModelAndView();
+//        modelAndView.setViewName("employees");
+//        modelAndView.addObject("employeeList", employees);
+//        return modelAndView;
+//    }
+
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public ModelAndView allEmployees(){
         List<Employee> employees = employeeService.allEmployees();

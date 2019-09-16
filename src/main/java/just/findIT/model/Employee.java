@@ -28,8 +28,11 @@ public class Employee {
     @Column(name = "skills")
     private String skills;
 
+    @Column
+    private String location;
+
+
 //    private String skype;
-//    private String lokation;
 //    private boolean subscribe;
 //    private boolean sex;
 
@@ -89,6 +92,13 @@ public class Employee {
         this.skills = skills;
     }
 
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String lokation) {
+        this.location = lokation;
+    }
 //    public boolean isSex() {
 //        return sex;
 //    }
@@ -105,13 +115,6 @@ public class Employee {
 //        this.skype = skype;
 //    }
 //
-//    public String getLokation() {
-//        return lokation;
-//    }
-//
-//    public void setLokation(String lokation) {
-//        this.lokation = lokation;
-//    }
 //
 //    public boolean isSubscribe() {
 //        return subscribe;
