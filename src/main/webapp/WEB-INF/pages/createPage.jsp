@@ -20,74 +20,60 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+    <!-- Add this link in your page  -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+
+    <link  href="../res/css/bootstrap-tagsinput.css" rel="stylesheet" media="screen">
+    <script src="../res/skript/bootstrap-tagsinput.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/xcode.min.css" />
+
+<%--    <!-- Latest compiled and minified CSS -->--%>
+<%--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">--%>
+
+<%--    <!-- Latest compiled and minified JavaScript -->--%>
+<%--    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/bootstrap-select.min.js"></script>--%>
+
+    <link rel="stylesheet" href="../res/css/bootstrap-select-country.min.css" />
+
+    <!--Scripts-->
+<%--    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>--%>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+<%--    <link rel="stylesheet" type="text/css" href="../res/css/flags32.css"/>--%>
+
+    <script src="../res/skript/bootstrap-select-country.min.js"></script>
+
+
+
     <style>body{ padding: 20px }</style>
 </head>
-
 
 <body class="bg-light">
 <%--<c:url value="/edit" var="var"/>--%>
 <c:url value="/add" var="var"/>
 <form action="${var}" method="POST">
-<%--    <input type="hidden" name="id" value="${employee.id}">--%>
-<%--    <div class="container">--%>
-<%--        <div class="container">--%>
-<%--        <label for="firstName"><strong>First name</strong> *</label><br />--%>
-<%--            <input id="firstName" name="firstName" required="true" type="text" placeholder="Enter Surname" /><br />--%>
-<%--        </div>--%>
-
-
-<%--        <div class="container">--%>
-<%--            <label for="secondName"><strong>Second name</strong> *</label><br />--%>
-<%--            <input id="secondName" name="secondName" required="true" type="text" placeholder="Enter Second Name" /><br />--%>
-<%--        </div>--%>
-
-<%--        <div class="container">--%>
-<%--            <label for="profession">Profession</label>--%>
-<%--        <br>--%>
-<%--            <input type="text" name="profession" id="profession">--%>
-<%--        <br>--%>
-<%--        </div>--%>
-
-<%--        <div class="container">--%>
-<%--            <label for="email">E-Mail</label>--%>
-<%--        <br>--%>
-<%--            <input type="text" name="email" id="email">--%>
-<%--        <br>--%>
-<%--        </div>--%>
-
-<%--        <div class="container">--%>
-<%--            <label for="phone">Phone</label>--%>
-<%--        <br>--%>
-<%--            <input type="text" name="phone" id="phone">--%>
-<%--        <br>--%>
-<%--        </div>--%>
-
-<%--        <div class="col-md-4">--%>
-<%--             <label for="skills">Skills</label>--%>
-<%--            <textarea name="skills" id="skills" class="form-control" id="exampleFormControlTextarea1" rows="3" cols="5"></textarea>--%>
-<%--            <br>--%>
-<%--        </div>--%>
-
-
-<%--        <div class="container">--%>
-<%--                <br>--%>
-<%--             <input type="submit" value="Edit/Create Employee">--%>
-<%--                <br>--%>
-<%--        </div>--%>
-<%--    </div>--%>
-
-
-
 
     <div class="container">
         <div class="py-5 text-center">
-            <img class="d-block mx-auto mb-4" src="/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
             <h2>Checkout form</h2>
             <p class="lead">You can leave your contact information, that our specialist can contact you</p>
         </div>
 
         <div class="row">
-            <div class="col-md-8 order-md-1">
+<%--            <div class="col-md-8 order-md-1">--%>
+            <div class="col-md-8">
                 <h4 class="mb-3">Information about yourself</h4>
                 <div class="needs-validation" novalidate>
 
@@ -98,33 +84,61 @@
                         </div>
                         <div class="col-md-6 mb-3">
                             <label for="secondName">Last name</label>
-                            <input type="text" class="form-control" id="secondName" placeholder="" value="" required>
+                            <input id="secondName" name="secondName" type="text" class="form-control"  placeholder="" value="" required>
                         </div>
                     </div>
 
                     <div class="mb-3">
                         <br>
                         <label for="email">Email <span class="text-muted">(Optional)</span></label>
-                        <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                        <input id="email" name="email" type="email" class="form-control"  placeholder="you@example.com">
                     </div>
 
                     <div class="mb-3">
                         <br>
                         <label for="phone">Phone</label>
-                        <input type="number" class="form-control" id="phone" placeholder="+123 345 678 90" required>
+                        <input id="phone" name="phone" type="number" class="form-control"  placeholder="+123 345 678 90" required>
                     </div>
+
+
+                    <div class="mb-3">
+                        <br>
+                        <select class="selectpicker countrypicker" data-live-search="true"
+                                                                   data-flag="true"></select>
+
+                        <script>
+                            $('.countrypicker').countrypicker();
+                        </script>
+                    </div>
+
+<%--                    <div class="col-lg-4">--%>
+<%--                        <div class="example">--%>
+<%--                            <h4>With Flag</h4>--%>
+<%--                            <p>Show flags</p>--%>
+<%--                        </div>--%>
+<%--                    </div>--%>
+
 
                     <div class="mb-3">
                         <br>
                         <label for="profession">Profession</label>
-                        <input type="text" class="form-control" id="profession" placeholder="Java Junior" required>
+                        <input id="profession" name="profession" type="text"  class="form-control"  placeholder="Java Junior" value="" required>
                     </div>
+
 
                     <div class="mb-3">
                         <br>
                         <label for="skills">Skills</label>
-                        <textarea name="skills" id="skills" class="form-control" id="exampleFormControlTextarea1" rows="3" cols="5"></textarea>
+                        <br>
+                        <input name="skills" id="skills" class="form-control" placeholder="Java EE, Spring, Hibernate, Java Script" data-role="tagsinput">
                     </div>
+
+
+<%--                    <div class="mb-3">--%>
+<%--                        <br>--%>
+<%--                        <label for="skills">Skills</label>--%>
+<%--                        <textarea name="skills" id="skills" class="form-control" placeholder="Java EE, Spring, Hibernate, Java Script" rows="3" cols="5"></textarea>--%>
+<%--                    </div>--%>
 
 
                         <hr class="mb-4">
@@ -137,7 +151,7 @@
 
 </form>
     <footer class="my-5 pt-5 text-muted text-center text-small">
-        <p class="mb-1">&copy; 2017-2018 Company Name</p>
+        <p class="mb-1">&copy; 2019-2020 MigWork</p>
         <ul class="list-inline">
             <li class="list-inline-item"><a href="#">Privacy</a></li>
             <li class="list-inline-item"><a href="#">Terms</a></li>

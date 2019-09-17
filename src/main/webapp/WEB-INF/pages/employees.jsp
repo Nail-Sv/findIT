@@ -35,12 +35,13 @@
         <th>phone</th>
         <th>Location</th>
         <th>Skills</th>
+        <th>Action</th>
     </tr>
     <c:forEach var="employee" items="${employeeList}">
         <tr>
             <td>${employee.firstName}</td>
             <td>${employee.secondName}</td>
-            <td>${employee.proffesion}</td>
+            <td>${employee.profession}</td>
             <td>${employee.email}</td>
             <td>${employee.phone}</td>
             <td>${employee.location}</td>

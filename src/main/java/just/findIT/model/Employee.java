@@ -23,12 +23,12 @@ public class Employee {
     private int phone;
 
     @Column(name = "profession")
-    private String proffesion;
+    private String profession;
 
     @Column(name = "skills")
     private String skills;
 
-    @Column
+    @Column(name = "location")
     private String location;
 
 
@@ -76,12 +76,12 @@ public class Employee {
         this.phone = phone;
     }
 
-    public String getProffesion() {
-        return proffesion;
+    public String getProfession() {
+        return profession;
     }
 
-    public void setProffesion(String proffesion) {
-        this.proffesion = proffesion;
+    public void setProfession(String profession) {
+        this.profession = profession;
     }
 
     public String getSkills() {
@@ -96,8 +96,8 @@ public class Employee {
         return location;
     }
 
-    public void setLocation(String lokation) {
-        this.location = lokation;
+    public void setLocation(String location) {
+        this.location = location;
     }
 //    public boolean isSex() {
 //        return sex;
