@@ -31,10 +31,18 @@ public class Employee {
     @Column(name = "location")
     private String location;
 
+    @Column(name = "skypeTelegramm")
+    private String skypeTelegramm;
 
-//    private String skype;
-//    private boolean subscribe;
-//    private boolean sex;
+    @Column(name = "locationDesired")
+    private String locationDesired;
+
+    @Column(name = "notes")
+    private String notes;
+
+    @Column(name = "subscribe")
+    private String subscribe;
+
 
     public int getId() {
         return id;
@@ -99,28 +107,38 @@ public class Employee {
     public void setLocation(String location) {
         this.location = location;
     }
-//    public boolean isSex() {
-//        return sex;
-//    }
-//
-//    public void setSex(boolean sex) {
-//        this.sex = sex;
-//    }
-//
-//    public String getSkype() {
-//        return skype;
-//    }
-//
-//    public void setSkype(String skype) {
-//        this.skype = skype;
-//    }
-//
-//
-//    public boolean isSubscribe() {
-//        return subscribe;
-//    }
-//
-//    public void setSubscribe(boolean subscribe) {
-//        this.subscribe = subscribe;
-//    }
+
+    public String getSkypeTelegramm() {
+        return skypeTelegramm;
+    }
+
+    public void setSkypeTelegramm(String skypeTelegramm) {
+        this.skypeTelegramm = skypeTelegramm;
+    }
+
+    public String getLocationDesired() {
+        return locationDesired;
+    }
+
+    public void setLocationDesired(String locationDesired) {
+        this.locationDesired = locationDesired;
+    }
+
+    public String getNotes() {
+        return notes;
+    }
+
+    public void setNotes(String notes) {
+        this.notes = notes;
+    }
+
+    public String getSubscribe() {
+        return subscribe;
+    }
+
+    public void setSubscribe(String subscribe) {
+        this.subscribe = subscribe;
+    }
+
+
 }

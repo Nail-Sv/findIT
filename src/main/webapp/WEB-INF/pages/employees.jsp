@@ -33,8 +33,12 @@
         <th>Profession</th>
         <th>email</th>
         <th>phone</th>
+        <th>Skype Telegramm</th>
         <th>Location</th>
+        <th>Location Desired</th>
         <th>Skills</th>
+        <th>Notes</th>
+        <th>Subscribe</th>
         <th>Action</th>
     </tr>
     <c:forEach var="employee" items="${employeeList}">
@@ -44,10 +48,14 @@
             <td>${employee.profession}</td>
             <td>${employee.email}</td>
             <td>${employee.phone}</td>
+            <td>${employee.skypeTelegramm}</td>
             <td>${employee.location}</td>
+            <td>${employee.locationDesired}</td>
             <td>${employee.skills}</td>
+            <td>${employee.notes}</td>
+            <td>${employee.subscribe}</td>
             <td>
-                <a href="/edit/${employee.id}">edit</a>
+<%--                <a href="/edit/${employee.id}">edit</a>--%>
                 <a href="/delete/${employee.id}">delete</a>
             </td>
         </tr>

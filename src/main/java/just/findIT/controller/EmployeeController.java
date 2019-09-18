@@ -74,6 +74,15 @@ public class EmployeeController {
         return modelAndView;
     }
 
+    @RequestMapping(value = "/delete/{id}", method = RequestMethod.GET)
+    public ModelAndView deleteEmployee(@PathVariable("id") int id){
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("redirect:/");
+        Employee employee = employeeService.getById(id);
+        employeeService.delete(employee);
+        return modelAndView;
+    }
+
 
 
 }

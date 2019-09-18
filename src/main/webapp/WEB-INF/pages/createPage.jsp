@@ -35,26 +35,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/xcode.min.css" />
 
-<%--    <!-- Latest compiled and minified CSS -->--%>
-<%--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">--%>
-
-<%--    <!-- Latest compiled and minified JavaScript -->--%>
-<%--    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/bootstrap-select.min.js"></script>--%>
 
     <link rel="stylesheet" href="../res/css/bootstrap-select-country.min.css" />
 
     <!--Scripts-->
-<%--    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>--%>
+
     <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
-
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 
-<%--    <link rel="stylesheet" type="text/css" href="../res/css/flags32.css"/>--%>
-
     <script src="../res/skript/bootstrap-select-country.min.js"></script>
-
 
 
     <style>body{ padding: 20px }</style>
@@ -72,59 +63,73 @@
         </div>
 
         <div class="row">
-<%--            <div class="col-md-8 order-md-1">--%>
-            <div class="col-md-8">
+<%--            <div class="col-md-3 ml-md-auto">--%>
+            <div class="col-md-8 mb-4">
+
                 <h4 class="mb-3">Information about yourself</h4>
                 <div class="needs-validation" novalidate>
 
                     <div class="row">
                         <div class="col-md-6 mb-3">
-                            <label for="firstName">First name</label>
-                            <input id="firstName" name="firstName" type="text" class="form-control"  placeholder="" value="" required>
+                            <label for="firstName">First name *</label>
+                            <input id="firstName" name="firstName" type="text" class="form-control"  placeholder="Enter Surname" value="" required>
                         </div>
                         <div class="col-md-6 mb-3">
-                            <label for="secondName">Last name</label>
-                            <input id="secondName" name="secondName" type="text" class="form-control"  placeholder="" value="" required>
+                            <label for="secondName">Second name *</label>
+                            <input id="secondName" name="secondName" type="text" class="form-control"  placeholder="Enter Name" value="" required>
                         </div>
                     </div>
 
                     <div class="mb-3">
                         <br>
-                        <label for="email">Email <span class="text-muted">(Optional)</span></label>
-                        <input id="email" name="email" type="email" class="form-control"  placeholder="you@example.com">
+                        <label for="email">Email <span class="text-muted">(Required)</span></label>
+                        <input id="email" name="email" type="email" class="form-control"  placeholder="you@example.com" required>
                     </div>
 
                     <div class="mb-3">
                         <br>
-                        <label for="phone">Phone</label>
+                        <label for="phone">Phone number * (in international format please, e.g. +4915903072498)</label>
                         <input id="phone" name="phone" type="number" class="form-control"  placeholder="+123 345 678 90" required>
                     </div>
 
-
                     <div class="mb-3">
                         <br>
-                        <select class="selectpicker countrypicker" data-live-search="true"
-                                                                   data-flag="true"></select>
-
-                        <script>
-                            $('.countrypicker').countrypicker();
-                        </script>
+                        <label for="skypeTelegramm">Skype or Telegram</label>
+                        <input id="skypeTelegramm" name="skypeTelegramm" type="text" class="form-control"  placeholder="Enter your Skype or Telegram">
                     </div>
 
-<%--                    <div class="col-lg-4">--%>
-<%--                        <div class="example">--%>
-<%--                            <h4>With Flag</h4>--%>
-<%--                            <p>Show flags</p>--%>
-<%--                        </div>--%>
-<%--                    </div>--%>
 
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <br>
+                            <label for="location">Your Location *</label>
+                            <br>
+                            <select id="location" name="location" class="selectpicker countrypicker" data-live-search="true"
+                                                                       data-default="DE"
+                                                                       data-flag="true"></select>
+                            <script>
+                                $('.countrypicker').countrypicker();
+                            </script>
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+                            <br>
+                            <label for="locationDesired">Location Desired</label>
+                            <br>
+                            <select id="locationDesired" name="locationDesired" class="selectpicker countrypicker" data-live-search="true"
+                                    data-default="DE"
+                                    data-flag="true"></select>
+                            <script>
+                                $('.countrypicker').countrypicker();
+                            </script>
+                        </div>
+                    </div>
 
                     <div class="mb-3">
                         <br>
                         <label for="profession">Profession</label>
                         <input id="profession" name="profession" type="text"  class="form-control"  placeholder="Java Junior" value="" required>
                     </div>
-
 
                     <div class="mb-3">
                         <br>
@@ -133,13 +138,23 @@
                         <input name="skills" id="skills" class="form-control" placeholder="Java EE, Spring, Hibernate, Java Script" data-role="tagsinput">
                     </div>
 
+                    <div class="mb-3">
+                        <br>
+                        <label for="notes">Notes (interests, birthday, anything unusual about you etc.)</label>
+                        <textarea name="notes" id="notes" class="form-control" id="exampleFormControlTextarea1" rows="3" cols="5"></textarea>
+                        <br>
+                    </div>
 
-<%--                    <div class="mb-3">--%>
-<%--                        <br>--%>
-<%--                        <label for="skills">Skills</label>--%>
-<%--                        <textarea name="skills" id="skills" class="form-control" placeholder="Java EE, Spring, Hibernate, Java Script" rows="3" cols="5"></textarea>--%>
-<%--                    </div>--%>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="subscribe" value="No">
+                        <label class="form-check-label" >No Thanks</label>
 
+                        <input class="form-check-input" type="radio" name="subscribe"  value="Two_Times">
+                        <label class="form-check-label" >1-2- time in a month</label>
+
+                        <input class="form-check-input" type="radio" name="subscribe"  value="Seldom">
+                        <label class="form-check-label" >Seldom</label>
+                    </div>
 
                         <hr class="mb-4">
                         <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>

@@ -7,17 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c31fcc30-7997-41e9-a805-df46d33cd466" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/css/bootstrap-select-country.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/css/bootstrap-tagsinput.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/css/flags32.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/css/images/flags16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/images/flags16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/images/flags32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/skript/bootstrap-select-country.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/skript/bootstrap-tagsinput.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/just/findIT/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/just/findIT/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/just/findIT/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/just/findIT/controller/EmployeeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/just/findIT/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/just/findIT/model/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createPage.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/employees.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/employees.jsp" afterDir="false" />
@@ -218,17 +209,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d25bbd0e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a50a16ef" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d25bbd0e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@1e7de7c2" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d25bbd0e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@74645a7b" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a50a16ef" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@329864c3" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -252,6 +238,8 @@
       <workItem from="1567879973059" duration="3481000" />
       <workItem from="1568022755209" duration="20001000" />
       <workItem from="1568475359929" duration="35560000" />
+      <workItem from="1568755328540" duration="2308000" />
+      <workItem from="1568800016181" duration="6453000" />
     </task>
     <task id="LOCAL-00001" summary="fisr commit">
       <created>1567800895635</created>
@@ -295,11 +283,28 @@
       <option name="project" value="LOCAL" />
       <updated>1568652921486</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added Tags for Skills Field&#10;added Location with Flags DropDownMenu&#10;WebConfig-&gt;resources">
+      <created>1568755593768</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1568755593768</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -322,6 +327,7 @@
     <MESSAGE value="connected to DB, created Configs, configurated Hibernate" />
     <MESSAGE value="fixed Bugs, now it's work" />
     <MESSAGE value="added Bootstrap in createPage, and location field in DB" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Bootstrap in createPage, and location field in DB" />
+    <MESSAGE value="added Tags for Skills Field&#10;added Location with Flags DropDownMenu&#10;WebConfig-&gt;resources" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Tags for Skills Field&#10;added Location with Flags DropDownMenu&#10;WebConfig-&gt;resources" />
   </component>
 </project>
