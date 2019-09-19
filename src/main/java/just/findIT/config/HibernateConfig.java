@@ -17,7 +17,7 @@ import java.util.Properties;
 @Configuration
 @ComponentScan(basePackages = "just.findIT")
 @EnableTransactionManagement
-@PropertySource("classpath:db.properties")
+@PropertySource("classpath:postgres.properties")
 public class HibernateConfig {
     private Environment environment;
 

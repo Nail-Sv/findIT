@@ -128,7 +128,7 @@
                     <div class="mb-3">
                         <br>
                         <label for="profession">Profession</label>
-                        <input id="profession" name="profession" type="text"  class="form-control"  placeholder="Java Junior" value="" required>
+                        <input id="profession" name="profession" type="text"  class="form-control"  placeholder="Java Junior" value="">
                     </div>
 
                     <div class="mb-3">
