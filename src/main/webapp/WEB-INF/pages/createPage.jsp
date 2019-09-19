@@ -89,7 +89,7 @@
                     <div class="mb-3">
                         <br>
                         <label for="phone">Phone number * (in international format please, e.g. +4915903072498)</label>
-                        <input id="phone" name="phone" type="number" class="form-control"  placeholder="+123 345 678 90" required>
+                        <input id="phone" name="phone" type="text" class="form-control"  placeholder="+123 345 678 90" required>
                     </div>
 
                     <div class="mb-3">
