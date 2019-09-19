@@ -6,13 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c31fcc30-7997-41e9-a805-df46d33cd466" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/just/findIT/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/just/findIT/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/just/findIT/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/just/findIT/model/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/createPage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/employees.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/employees.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="c31fcc30-7997-41e9-a805-df46d33cd466" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +233,7 @@
       <workItem from="1568022755209" duration="20001000" />
       <workItem from="1568475359929" duration="35560000" />
       <workItem from="1568755328540" duration="2308000" />
-      <workItem from="1568800016181" duration="6453000" />
+      <workItem from="1568800016181" duration="6776000" />
     </task>
     <task id="LOCAL-00001" summary="fisr commit">
       <created>1567800895635</created>
@@ -290,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568755593768</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added locationDesire, Notes, Skype, Subscribe fields&#10;delete Function">
+      <created>1568819070657</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1568819070657</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,6 +329,7 @@
     <MESSAGE value="fixed Bugs, now it's work" />
     <MESSAGE value="added Bootstrap in createPage, and location field in DB" />
     <MESSAGE value="added Tags for Skills Field&#10;added Location with Flags DropDownMenu&#10;WebConfig-&gt;resources" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Tags for Skills Field&#10;added Location with Flags DropDownMenu&#10;WebConfig-&gt;resources" />
+    <MESSAGE value="added locationDesire, Notes, Skype, Subscribe fields&#10;delete Function" />
+    <option name="LAST_COMMIT_MESSAGE" value="added locationDesire, Notes, Skype, Subscribe fields&#10;delete Function" />
   </component>
 </project>
