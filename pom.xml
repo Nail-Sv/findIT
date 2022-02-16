@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <postgresql.version>42.2.6</postgresql.version>
+        <postgresql.version>42.3.3</postgresql.version>
     </properties>
     <packaging>war</packaging>
 
